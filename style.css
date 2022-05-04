@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  background-color: #282F44;
+}
+
+.circle-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bowser-img {
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-platinum {
+  background-color: #E5E6E4;
+  width: 500px;
+  padding: 30px;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px #6883BA;
+}
+
+h1 {
+  font-family: 'Podkova', serif;
+  color : #6883BA ;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Podkova', serif;
+  color : #55868C ;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color : #282F44;
+}
+
+#seal-btn {
+  font-family: 'Josefin Sans', sans-serif;
+  color : white;
+  background-color: #55868C;
+  padding: 10px;
+  border-radius: 5px ;
+  text-decoration: none;
+  box-shadow: 0 10px 30px #898a8d;
+}
+
+#seal-btn:hover {
+  background-color: #95acaf;
+}
+
+i {
+  color : #282F44;
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+i:hover {
+  color: #95acaf;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
